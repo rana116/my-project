@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: rgba(255, 255, 255, 0.8);" >
+    <div class="container-fluid">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-size: 1.5rem; font-family: 'Times New Roman', Times, serif;">
+            <img src="/images/book-black.png" alt="Logo" width="40px" height=auto class="d-inline-block align-text-top" style="margin-right: 10px;">
+            Ebook Store
+          </a>
+        </div>
+      </nav>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about">About</a>
+          </li>
+ 
+          <!-- <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/products">All Products</a></li>
+              <li><a class="dropdown-item" routerLink="/categories">Categories</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="/offers">Special Offers</a></li>
+            </ul>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/cart">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact-Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/account">My account</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-3" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>

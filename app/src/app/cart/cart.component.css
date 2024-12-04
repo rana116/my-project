@@ -1,0 +1,17 @@
+h2 {
+    text-align:center; 
+    margin-top :20px; 
+   }
+   
+   button{
+    background-color:#dc3545; 
+    color:white; 
+    border:none; 
+    padding:.5rem; 
+    border-radius:.25rem; 
+    cursor:pointer; 
+   }
+   
+   button:hover{
+    background-color:#c82333; 
+   }

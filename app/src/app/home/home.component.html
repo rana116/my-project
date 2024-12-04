@@ -1,0 +1,29 @@
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+        <div *ngFor="let slide of slides; let i = index" 
+             [ngClass]="{'carousel-item': true, 'active': i === currentIndex}">
+            <img [src]="slide.src" class="d-block w-100" [alt]="slide.alt" (click)="goToSlide(i)">
+            
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{ slide.captionTitle }}</h5>
+                <!-- <p>{{ slide.captionText }}</p> -->
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" (click)="prevSlide()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    
+    <button class="carousel-control-next" type="button" (click)="nextSlide()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="text-center py-5">
+    <h1 class="display-4">Welcome to eBook Store</h1>
+    <p class="lead">Your one-stop shop for all your eBook needs!</p>
+    <a class="btn btn-primary btn-lg" routerLink="/books">Shop Now</a>
+</div>

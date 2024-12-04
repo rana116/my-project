@@ -1,0 +1,16 @@
+.contact-us {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-top: 10px;
+}

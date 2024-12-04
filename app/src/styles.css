@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/images/4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
